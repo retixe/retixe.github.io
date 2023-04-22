@@ -1,0 +1,23 @@
+
+body{
+    background-color: #333333;
+    color: white;
+    text-align: center;
+}
+
+a:link{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border: #ff8400;
+
+    background-image: linear-gradient(to bottom left, rgba(0,0,0,0) 50%, #ff8400 50%);
+    background-size: 200% 200%;
+    background-position: 100% 0%;
+
+    transition: background-position 0.5s;
+}
+
+a:hover{
+    background-position: 0% 100%;
+}
