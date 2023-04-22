@@ -8,8 +8,8 @@ body{
 a:link{
     color: white;
     text-decoration: none;
-    padding: 10px;
-    border: 2px #ff8400;
+    padding: 5px 10px;
+    border: 2px solid #ff8400;
 
     background-image: linear-gradient(to bottom left, rgba(0,0,0,0) 50%, #ff8400 50%);
     background-size: 200% 200%;
