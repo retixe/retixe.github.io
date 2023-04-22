@@ -5,7 +5,7 @@ body{
     text-align: center;
 }
 
-a:link{
+a:link, a:visited{
     color: white;
     text-decoration: none;
     padding: 0px 10px;
@@ -16,10 +16,6 @@ a:link{
     background-position: 100% 0%;
 
     transition: background-position 0.5s;
-}
-
-a:visited{
-    color: white;
 }
 
 a:hover{
