@@ -9,7 +9,7 @@ a:link{
     color: white;
     text-decoration: none;
     padding: 10px;
-    border: #ff8400;
+    border: 2px #ff8400;
 
     background-image: linear-gradient(to bottom left, rgba(0,0,0,0) 50%, #ff8400 50%);
     background-size: 200% 200%;
