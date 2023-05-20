@@ -1,0 +1,18 @@
+<svg version="1.1"
+     width="100" height="100"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+
+<defs>
+    <polygon id="base" points="0,75 0,25 50,0 100,25 100,75 50,100" fill="#b05b00" stroke="black" stroke-width="1" />
+    <polyline id="line" points="50,0 50,100" fill="none" stroke="black" stroke-width="1" />
+    <clipPath id="clip">
+        <use xlink:href="#base"/>
+    </clipPath>
+</defs>
+
+<use xlink:href="#base" clip-path="url(#clip)"/>
+<use xlink:href="#line" clip-path="url(#clip)"/>
+
+
+</svg>
